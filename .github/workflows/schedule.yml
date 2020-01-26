@@ -8,12 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: matchai/bird-box@master
+        uses: poly2d/bird-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 6d5f84419863089a167387da62dd7081
+          GIST_ID: 51aa98ea67092a47cb4ea327154d2f0a
           TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
-          TWITTER_USER: matchai
+          TWITTER_USER: poly2d
